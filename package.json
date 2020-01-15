@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "<a href=\"https://banhawchun.github.io/background-generator/\" target=\"_blank\">Click here to see</a>\r <img src=\"web.png\">",
+  "main": "scriptBg.js",
+  "scripts": {
+    "build": "browserify scriptBg.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banhawchun/background-generator.git"
+  },
+  "author": "demaze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banhawchun/background-generator/issues"
+  },
+  "homepage": "https://github.com/banhawchun/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
