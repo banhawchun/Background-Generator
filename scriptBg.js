@@ -1,7 +1,8 @@
-var _ = require('lodash');
+// Testing Lodash
+// var _ = require('lodash');
 
-var arr = [1, 2, 3, 4, 5];
-console.log('answer', _.without(arr, 3));
+// var arr = [1, 2, 3, 4, 5];
+// console.log('answer', _.without(arr, 3));
 
 var csstxt = document.querySelector('h3');
 var color1 =  document.querySelector(".color1");
